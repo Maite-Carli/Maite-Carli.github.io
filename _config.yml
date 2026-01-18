@@ -25,7 +25,7 @@ feed:
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_square.jpg"
+  avatar           : "../images/profile_square.jpg"
   name             : "Maite Carli"
   pronouns         : "she/her"  
   bio              : "PhD Candidate in Mathematics. Research in Homotopy Theory"

@@ -12,11 +12,11 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Maite Carli"
 title_separator          : "-"
 name                     : &name "Maite Carli"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+description              : &description "PhD Candidate in Mathematics at Utrecht University"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://Maite-Carli.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "Maite-Carli/Maite-Carli.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Maite Carli"
   pronouns         : "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "PhD Candidate in Mathematics at Utrecht University. Research in Homotopy Theory"
+  location         : ""
   employer         : "Utrecht University"
   uri              : # URL
-  email            : "m.c.carli"at"uu.nl" 
+  email            : "m.c.carli@uu.nl" 
 
   # Academic websites
   academia         : # URL

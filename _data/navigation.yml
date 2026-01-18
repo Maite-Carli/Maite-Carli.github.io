@@ -8,12 +8,15 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Notes"
-    url: /notes/
-  
-  - title: "Research"
+ - title: "Research"
     url: /research/
     
+  - title: "Notes"
+    url: /notes/
+    
+  - title: "Seminars, Conferences and Outreach"
+    url: /organisation/
+ 
   - title: "Teaching"
     url: /ta/
    

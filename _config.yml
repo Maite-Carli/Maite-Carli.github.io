@@ -38,6 +38,7 @@ author:
     #- label: "Email"
      # icon: "fas fa-fw fa-envelope"
       #url: "mailto:m.c.carli@uu.nl"
+  follow: false
 
   # Academic websites
   academia         : # URL

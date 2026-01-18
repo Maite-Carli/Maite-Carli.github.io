@@ -1,5 +1,5 @@
 ---
-permalink: /teachingtemp/
+permalink: /ta/
 title: "Teaching"
 author_profile: false
 ---

@@ -20,5 +20,5 @@ Budapestlaan 6
 3584 CD Utrecht  
 The Netherlands
 
-<img src="../images/IMG_7860.JPG" alt="My Picture" width="200" style="float:right; margin-left: 15px;">
+<img src="../images/IMG_7860.JPG" alt="My Picture" width="200" style="float:none; margin-left: 15px;">
 

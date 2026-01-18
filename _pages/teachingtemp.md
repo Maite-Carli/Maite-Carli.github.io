@@ -7,7 +7,7 @@ I enjoyed being a teaching assistant for the following courses:
 
 -[Introduction to Topology](https://webspace.science.uu.nl/~crain101/topology-2024/) (Fall 2024 and 2025, Utrecht University, Course of Marius Crainic)  
 
-- Probability Theory (Summer 2025, Utrecht University, Course of Sjoerd Dirksen)
+-Probability Theory (Summer 2025, Utrecht University, Course of Sjoerd Dirksen)
   
 -Topology and Geometry (Spring 2025, Utrecht University, Course of Carel Faber)
 

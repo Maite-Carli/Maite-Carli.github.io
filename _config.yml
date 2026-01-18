@@ -31,10 +31,11 @@ author:
   employer         : "Utrecht University"
   uri              : # URL
   email            : "m.c.carli@uu.nl" 
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:m.c.carli@uu.nl"
+  links            : []
+  #links:
+    #- label: "Email"
+     # icon: "fas fa-fw fa-envelope"
+      #url: "mailto:m.c.carli@uu.nl"
 
   # Academic websites
   academia         : # URL

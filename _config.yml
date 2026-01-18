@@ -23,7 +23,7 @@ repository               : "Maite-Carli/Maite-Carli.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/profile.jpg"
+  avatar           : "profile.jpg"
   name             : "Maite Carli"
   pronouns         : "she/her"  
   bio              : "PhD Candidate in Mathematics at Utrecht University. Research in Homotopy Theory"

@@ -15,7 +15,7 @@ author_profile: false
 
 {% if seminar.semester %}*{{ seminar.semester }}*{% endif %}
 
-{{ seminar.description | markdownify }}
+{% if seminar.description %}{{ seminar.description | markdownify }}{% endif %}
 
 **Practical information**
 
@@ -23,7 +23,7 @@ author_profile: false
 {% endif %}{% if seminar.where %}-**Where:** {{ seminar.where }}  
 {% endif %}{% if seminar.audience %}-**Who:** {{ seminar.audience }}  
 {% endif %}{% if seminar.organisers %}-**Organised by:** {% for o in seminar.organisers %}{% if o.url %}[{{ o.name }}]({{ o.url }}){% else %}{{ o.name }}{% endif %}{% unless forloop.last %} and {% endunless %}{% endfor %}  
-{% endif %}{% if seminar.syllabus %}-**Syllabus:** [download the syllabus]({{ seminar.syllabus }})  
+{% endif %}{% if seminar.syllabus %}-[Syllabus]({{ seminar.syllabus }})  
 {% endif %}
 
 ## Programme

@@ -15,26 +15,24 @@
 
 semester: "Autumn 2026"
 
-# Introductory paragraph. Markdown (links, *emphasis*) works here.
-description: >
-  A learning seminar on algebraic models for spaces. We start with rational
-  homotopy theory and the models of Quillen and Sullivan, then turn to the
-  *p*-adic and integral picture, and finish with Lie algebra models for
-  *v*<sub>*n*</sub>-periodic spaces.
-
 # Practical information. Delete a line to hide it.
 when: "Wednesdays, 13:00-15:00"
 where: "Room 7.07, Hans Freudenthalgebouw, Utrecht University"
-audience: "Everyone is welcome."
+
+# Optional, and currently unused. Uncomment either one to make it appear:
+# an introductory paragraph above the practical information (markdown works),
+# and a "Who" line beneath "Where".
+# description: >
+#   A learning seminar on algebraic models for spaces.
+# audience: "Everyone is welcome."
 
 # Link to the syllabus PDF (the file lives in /files/).
 syllabus: /files/Algebraic_Models_for_Spaces_syllabus.pdf
 
-organisers:
-  - name: "Maite Carli"
-    url:
-  # - name: "Co-organiser"
-  #   url: https://example.com
+# Optional "Organised by" line. Uncomment to make it appear.
+# organisers:
+#   - name: "Maite Carli"
+#     url: https://example.com
 
 # Optional closing line. Delete it to hide it.
 contact: >

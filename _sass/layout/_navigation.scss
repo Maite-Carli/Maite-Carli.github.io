@@ -205,7 +205,9 @@
   .visible-links {
     display: table;
 
-    li {
+    /* Direct children only: these rules must not reach the <li> items of a
+       drop-down submenu, which are a nested list inside one of these tabs. */
+    > li {
       display: table-cell;
       vertical-align: middle;
 
@@ -234,7 +236,7 @@
       }
     }
 
-    a {
+    > li > a {
       position: relative;
 
       &:before {
@@ -485,11 +487,16 @@
       }
     }
 
+    li {
+      font-weight: normal;
+    }
+
     a {
       display: block;
       margin: 0;
       padding: 10px 20px;
       font-size: $type-size-6;
+      font-weight: normal;
 
       /* Cancel the sliding underline that .visible-links puts on its links. */
       &:before {
@@ -499,10 +506,6 @@
       &:hover {
         color: var(--global-masthead-link-color-hover);
         background: var(--global-border-color);
-      }
-
-      &[aria-current="page"] {
-        font-weight: 700;
       }
     }
   }

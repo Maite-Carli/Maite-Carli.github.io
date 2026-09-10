@@ -66,7 +66,10 @@
   }
 }
 
-.masthead__menu-item.selected a {
+/* The child combinator matters: it keeps the rule off the links of a
+   drop-down submenu, which would otherwise be greyed out and unclickable
+   whenever its parent tab is the current page. */
+.masthead__menu-item.selected > a {
   color: var(--global-text-color);
   font-weight: 700;
   border-bottom: 2px solid var(--global-text-color);
@@ -74,8 +77,16 @@
   cursor: default; /* Move this here too */
 }
 
-.masthead__menu-item.selected a:hover {
+.masthead__menu-item.selected > a:hover {
   color: var(--global-text-color);
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
+}
+
+/* On a sub-tab's own page the parent tab is marked active too, but stays
+   clickable so it can still be used to get back to the overview page. */
+.masthead__menu-item--active-child > a {
+  color: var(--global-text-color);
+  font-weight: 700;
+  border-bottom: 2px solid var(--global-text-color);
 }

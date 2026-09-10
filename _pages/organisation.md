@@ -6,18 +6,17 @@ author_profile: false
 
 ## Seminars
 
--[Algebraic Models for Spaces](/seminars/) (Autumn 2026, Utrecht University)  
-A learning seminar I am currently organising, on rational, *p*-adic and periodic
-models for spaces. The programme, the syllabus and the notes to the talks are on
-[its own page](/seminars/).
+-I am currently organising a seminar on algebraic models for spaces (rational,
+*p*-adic and *v*<sub>*n*</sub>-periodic). For more details, organisational
+information and the syllabus, see [here](/seminars/).
 
--[Trace Methods and Computations](https://sites.google.com/view/vigneshsubramanian/seminars/trace-methods-and-computations/) (Winter semester 2024-2025)  
-Organised together with [Vignesh Subramanian](https://sites.google.com/view/vigneshsubramanian/home).
+-In the fall of 2024, [Vignesh Subramanian](https://sites.google.com/view/vigneshsubramanian/home)
+and I organised a seminar on [trace methods](https://sites.google.com/view/vigneshsubramanian/seminars/trace-methods-and-computations/).
 
 ## Conferences and workshops
 
--[European Talbot Workshop](https://sites.google.com/view/european-talbot/) (since September 2025)  
-I am part of the organising team.
+-I was one of the organisers for the [2026 European Talbot Workshop](https://sites.google.com/view/european-talbot/).
+I am also involved in organising the 2027 edition.
 
 ## Outreach
 

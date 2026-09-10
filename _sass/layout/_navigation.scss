@@ -442,3 +442,93 @@
     }
   }
 }
+
+
+/*
+   Masthead submenu (drop-down on hover)
+   ========================================================================== */
+
+.greedy-nav {
+  /* Positioning context for the drop-down. The submenu is absolutely
+     positioned, so it never contributes to the width of .visible-links and
+     cannot upset the greedy-nav overflow calculation. */
+  .visible-links .masthead__menu-item--has-children {
+    position: relative;
+  }
+
+  .masthead__submenu {
+    position: absolute;
+    top: 100%;
+    left: 0.5rem;
+    z-index: 30;
+    min-width: 100%;
+    margin: 0;
+    padding: 5px;
+    list-style-type: none;
+    text-align: left;
+    white-space: nowrap;
+    border: 1px solid var(--global-border-color);
+    border-radius: $border-radius;
+    background: var(--global-bg-color);
+    box-shadow: 0 0 10px rgba(#000, 0.25);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+
+    li {
+      display: block;
+      border-bottom: 1px solid var(--global-border-color);
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    a {
+      display: block;
+      margin: 0;
+      padding: 10px 20px;
+      font-size: $type-size-6;
+
+      /* Cancel the sliding underline that .visible-links puts on its links. */
+      &:before {
+        content: none;
+      }
+
+      &:hover {
+        color: var(--global-masthead-link-color-hover);
+        background: var(--global-border-color);
+      }
+
+      &[aria-current="page"] {
+        font-weight: 700;
+      }
+    }
+  }
+
+  /* :focus-within opens the same menu for keyboard users tabbing through. */
+  .masthead__menu-item--has-children:hover > .masthead__submenu,
+  .masthead__menu-item--has-children:focus-within > .masthead__submenu {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* Once the tab has collapsed into the overflow menu there is nothing to
+     hover, so the children are shown inline as an indented list instead. */
+  .hidden-links .masthead__submenu {
+    position: static;
+    visibility: visible;
+    opacity: 1;
+    min-width: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+
+    a {
+      padding-left: 40px;
+    }
+  }
+}

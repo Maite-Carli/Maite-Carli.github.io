@@ -16,6 +16,11 @@ main:
     
   - title: "Seminars, Conferences and Outreach"
     url: /organisation/
+    # Sub-tabs: these appear in a drop-down when hovering the tab above.
+    # Add a line here whenever a seminar gets its own page.
+    children:
+      - title: "Algebraic Models for Spaces"
+        url: /seminars/
  
   - title: "Teaching"
     url: /ta/

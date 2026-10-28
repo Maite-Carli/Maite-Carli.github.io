@@ -94,28 +94,28 @@ talks:
 
   - part: "<em>p</em>-adic homotopy theory"
     number: 6
-    date: 2026-10-28
+    date: 2026-11-04 
     title: "Schematization"
     speaker: "Francesca"
     notes:
 
   - part: "Periodic homotopy theory"
     number: 7
-    date: 2026-11-04
+    date: 2026-11-11
     title: "Lie algebra model for v<sub>n</sub>-periodic spaces"
     speaker: "Rens"
     notes:
 
   - part: "Periodic homotopy theory"
     number: 8
-    date: 2026-11-11
+    date: 2026-11-18
     title: "The Behrens-Rezk model and comparison map"
     speaker: "Maite"
     notes:
 
   - part: "Outlook"
     number: 9
-    date: 2026-11-18
+    date: 2026-11-18, 15h-16:30
     title: "Open questions"
     speaker: "Gijs"
     notes:

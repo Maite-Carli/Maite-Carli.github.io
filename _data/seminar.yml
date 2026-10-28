@@ -109,13 +109,13 @@ talks:
   - part: "Periodic homotopy theory"
     number: 8
     date: 2026-11-18
-    title: "The Behrens-Rezk model and comparison map"
+    title: "The Behrens-Rezk model and comparison map, (13h-15h)"
     speaker: "Maite"
     notes:
 
   - part: "Outlook"
     number: 9
-    date: 2026-11-18, 15h-16:30
-    title: "Open questions"
+    date: 2026-11-18
+    title: "Open questions, (15h-16:30)"
     speaker: "Gijs"
     notes:
